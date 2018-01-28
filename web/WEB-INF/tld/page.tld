@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+    <!-- -->
+    <tlib-version>1.0</tlib-version>
+    <!-- -->
+    <short-name>page</short-name>
+    <!-- -->
+    <uri>http://www.jzteam.com</uri>
+    <!-- ????????????tag?? -->
+    <tag>
+        <!--??????????????????name?????-->
+        <name>MyTag</name>
+        <!--??????????-->
+        <tag-class>cn.jzteam.PageTag</tag-class>
+        <!--??????????-->
+        <body-content>scriptless</body-content>
+        <!-- -->
+        <attribute>
+            <!-- -->
+            <name>test</name>
+            <!-- -->
+            <required>true</required>
+            <!-- ????EL??? -->
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>
